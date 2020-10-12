@@ -8,11 +8,11 @@ function average(dataArray) {
 }
 
 //TESTING
-myArray = [1, 2, 3, 4];
-myArrAyAverage = average(myArray);
+let myArray = [1, 2, 3, 4];
+let myArrAyAverage = average(myArray);
 
-myEmptyArray = [];
-myEmptyArrayAverage = average(myEmptyArray);
+let myEmptyArray = [];
+let myEmptyArrayAverage = average(myEmptyArray);
 
 console.log(myArrAyAverage);
 console.log(myEmptyArrayAverage);
